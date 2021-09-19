@@ -1,0 +1,171 @@
+/*For Dojo Survey*/
+
+/****   Default Styles Section *****/
+h1 {
+        color: blue;
+        font-size: 200%;
+        text-align: center;
+        vertical-align: middle;
+}
+h2 {
+        color: green;
+        font-size: 250%;
+        text-align: center;
+        vertical-align: middle;
+}
+h3 {
+
+        text-align: center;
+        vertical-align: middle;
+        
+}
+span {
+    display: inline-block;
+    padding: 1px 8px;
+    white-space: pre;
+ }
+ form span {
+	display: block;
+	color: red;
+	font-weight: bold;
+}
+
+
+/**** Added Styles Section ****/
+
+.center {
+  text-align: center;
+}
+.underline {
+  text-decoration: underline;
+  font-size: 30px;
+}
+.leftEdgePadding {
+  padding-left: 25px;
+}
+.leftCenterPadding2 {
+  margin-left: 25px;
+}
+
+/****   Button Section *****/
+
+/*Button position on Survey form*/
+.fixedbutton {
+    position: fixed;
+    bottom: 770px;
+    right: 650px; 
+}
+
+/*Button position on Result form*/
+.fixedInputbutton {
+    position: fixed;
+    bottom: 657px;
+    right: 713px; 
+}
+
+/*Button appearance on both Survey/Result Forms*/
+.buttonFormat {
+        width: 85px;
+        height: 30px;
+        background-color: #48D1CC;
+        color: ivory;
+        box-shadow: 5px 7px #888888;
+}
+      
+.resultsButtonPosition {
+        margin-top: 270;
+        margin-left: 270;
+        float:right;
+        float:bottom;
+ }
+ 
+ .surveyButtonPosition {
+        margin-top: 300;
+        margin-left: 270;
+        float:right;
+        float:bottom;
+ }
+ 
+
+/*For Survey Form Name field and Select Drop-lists*/ 
+
+ #nameFieldtSize{
+    width: 310px;
+    height: 25px;
+    margin-left: 85px
+}
+
+ #locationListSize{
+    width: 317px;
+    height: 30px;
+    margin-left: 59px
+}
+ 
+  #languageListSize{
+    width: 317px;
+    height: 30px;
+    margin-left: 17px
+}
+ 
+ 
+ 
+ 
+
+/*  For body background color */
+.lightBlueColor {
+  background-color: #ADD8E6;
+}
+
+/****   Containers Section *****/
+#formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#formResultsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.innerResultsContainer {
+	flex-direction: row;
+	display: inline-block;
+
+}
+
+/*For Survey Form*/
+.innerContainer {
+	flex-direction: column;
+    border-color: gray;
+    background-color: #ADD8E6;
+    font-weight: bold;
+ 	font-size: 20px;
+    margin-top: 150px;
+    text-align: left;
+    height: 350px;
+    width: 550px;
+    align-content: space-between;
+    border-style:solid;
+    border-width:medium;
+    padding: 30px;
+}
+
+/*For Result Form*/
+.innerContainer2 {
+	flex-direction: column;
+    border-color: gray;
+    background-color: #ADD8E6;
+    font-weight: bold;
+ 	font-size: 18px;
+    margin-top: 150px;
+   vertical-align: center;
+    height: 350px;
+    width: 550px;
+    align-content: space-between;
+    border-style:solid;
+    border-width:medium;
+    padding: 30px;
+}
