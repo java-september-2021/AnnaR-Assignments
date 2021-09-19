@@ -1,0 +1,33 @@
+/*For Display Name */
+
+
+#container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.linkFormat {
+  display: flex;
+  flex-direction: column;
+     font-size: 25px;
+    font-weight: bold;
+    vertical-align: middle;
+    margin-top: 250px  
+}
+.dateFormat {
+    font-size: 35px;
+    color: #0000FF;
+    font-weight: bold;
+    vertical-align: middle;
+    margin-top: 250px;
+    text-align: center;  
+}
+.timeFormat {
+    font-size: 35px;
+    color: #228B22;
+    font-weight: bold;
+    vertical-align: middle;
+    margin-top: 250px;
+    text-align: center;  
+}
