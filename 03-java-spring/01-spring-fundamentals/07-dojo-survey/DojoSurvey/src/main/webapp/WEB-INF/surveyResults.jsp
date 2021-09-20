@@ -34,7 +34,7 @@
     <td width="300px"> ${param.comments}</td>
   </tr>
  </table >	
- <div class="fixedInputbutton" > <input type="submit" value="Return" class="buttonFormat"/></div>
+ <div class="fixedbutton" > <input type="submit" value="Return" class="buttonFormat"/></div>
 </form> 
 
  </div>

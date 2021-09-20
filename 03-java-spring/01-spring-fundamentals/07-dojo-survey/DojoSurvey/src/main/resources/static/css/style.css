@@ -51,16 +51,16 @@ span {
 
 /*Button position on Survey form*/
 .fixedbutton {
-    position: fixed;
-    bottom: 770px;
-    right: 650px; 
+    padding-top: 75px;
+    bottom: 690px;
+    margin-left: 428px;
 }
 
 /*Button position on Result form*/
 .fixedInputbutton {
-    position: fixed;
-    bottom: 657px;
-    right: 713px; 
+    padding-top: 5px;
+    bottom: 670px;
+    margin-left: 428px; 
 }
 
 /*Button appearance on both Survey/Result Forms*/
@@ -73,17 +73,15 @@ span {
 }
       
 .resultsButtonPosition {
-        margin-top: 270;
+        margin-top: 280;
         margin-left: 270;
-        float:right;
-        float:bottom;
+
  }
  
  .surveyButtonPosition {
         margin-top: 300;
         margin-left: 270;
-        float:right;
-        float:bottom;
+
  }
  
 
