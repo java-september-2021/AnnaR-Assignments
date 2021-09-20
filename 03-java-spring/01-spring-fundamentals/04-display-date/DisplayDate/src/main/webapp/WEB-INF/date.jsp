@@ -6,7 +6,7 @@
 <head>
   <meta charset="ISO-8859-1">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <script type="text/javascript" src="appDate.js"></script>
+  <script type="text/javascript" src="js/dateAlert.js"></script>
   <title>Date</title>
 </head>
 <body>
