@@ -19,19 +19,19 @@
   <tr>  <th> </th> </tr> 
   <tr>
     <td > Name: </td>
-    <td width="300px" > ${param.yourName}</td>
+    <td width="300px" > ${yourName}</td>
     </tr>
   <tr> 
     <td style="leftEdgePadding"> Dojo Location:&ensp;</td>
-    <td width="300px"> ${param.dojoLocation}</td>
+    <td width="300px"> ${dojoLocation}</td>
     </tr>
   <tr>     
     <td style="leftEdgePadding">Favorite Language:  </td>
-    <td width= "300px"> ${param.favLanguage}</td>
+    <td width= "300px"> ${favLanguage}</td>
   </tr>
   <tr>  
     <td style="leftEdgePadding"> Comments:  &ensp;&ensp; </td>
-    <td width="300px"> ${param.comments}</td>
+    <td width="300px"> ${Comments}</td>
   </tr>
  </table >	
  <div class="fixedbutton" > <input type="submit" value="Return" class="buttonFormat"/></div>
