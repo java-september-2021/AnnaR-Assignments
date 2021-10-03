@@ -1,6 +1,9 @@
 package com.arankin.Lookify.Respositories;
 
 import java.util.List;
+
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.jpa.repository.*;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
@@ -20,6 +23,7 @@ public interface SongRepositories  extends CrudRepository<Song, Long>{
 	    
 	    
 	    // this method finds ordered by ratings
+	    @Query(value = "SELECT * FROM songs.songs ORDER BY rating DESC limit 10", nativeQuery = true)
 	    List<Song> findByOrderByRating();	 
 
 }
