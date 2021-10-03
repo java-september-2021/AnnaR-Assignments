@@ -1,0 +1,172 @@
+
+
+
+h1 { 
+        margin-left: 22px;
+        margin-top: 55px;
+        font-size: 240%;
+        vertical-align: middle;
+}
+
+
+
+#leftMargin { 
+        margin-left: 30px;
+        vertical-align: middle;
+        width:150px
+}
+
+
+.containerMargin { 
+        margin-left: 170px;
+        margin-left: 22px;
+        margin-top: 55px;
+}
+
+
+/* Ninja form section */
+
+.ninjaFormMargin { 
+        height: 300px;      
+        margin-left: 50px;
+        margin-top: 55px;
+}
+
+.ninjaHeading {      
+        margin-left: -5px;
+        font-size:270%;
+}
+
+.ninjaDropListSpacer {      
+        margin-left: 115px;
+       
+}
+.ninjaFieldSpacer {      
+        margin-left: 75px;
+       
+}
+.ninjaAgeFieldSpacer {      
+        margin-left: 120px;
+       
+}
+.ninjaButtonSpacer {      
+        margin-left: 155px;
+       
+}
+
+/****  Dojo/Ninja Grid Tags   *****/
+
+.djleftMargin { 
+        margin-left: 230px;
+        vertical-align: middle;
+}
+.djFormMargin { 
+        height: 300px;      
+        margin-left: 50px;
+        margin-top: 55px;
+}
+
+
+
+
+/* Table tags  */
+
+table, th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  width: 60%;
+}
+
+ tr {
+  border: 1 px gray;
+  border-collapse: collapse;
+  text-align: center;
+}
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+#noBorder {
+ border: none;
+} 
+
+
+.columnWidth {
+  border: 1px solid black;
+   width: 60%
+} 
+.columnWidth1 {
+  border: 1px solid black;
+   width: 45%
+}  
+.columnWidth2 {
+  border: 1px solid black;
+   width: 75%
+} 
+.cellPadding {
+   padding-left: 35px;
+   padding-right: 35px;
+} 
+
+
+
+
+
+
+/* Tags not used */
+
+.backgroundformat {
+        background-color: coral;
+}
+
+
+h2 {
+        color: green;
+        font-size: 250%;
+        text-align: center;
+        vertical-align: middle;
+}
+h3 {
+        text-align: center;
+        vertical-align: middle;        
+}
+.fColor {
+        color: red;
+        font-size: 90%;
+}
+
+.center {
+        text-align: center;
+}
+.fieldWidth {
+        width: 50%;
+}
+.fieldTextWidth {
+        width: 82%;
+}
+.leftAlign2 {
+        
+        border-style: solid;
+        list-style-position: inside;
+        vertical-align: middle;
+        border-width: thin;
+        border: 1px solid black; 
+        margin: 25px 50px 75px 100px;
+      
+}
+
+.underline {
+  border-bottom: 1px solid;
+  width: 28%;
+}
+ul {
+        font-weight: bolder;
+        margin-left: 525px;
+        list-style-position: inside;
+        vertical-align: middle;
+        margin-top: 125px;
+}
+#fontSize {
+        font-size: 90%;      
+}
