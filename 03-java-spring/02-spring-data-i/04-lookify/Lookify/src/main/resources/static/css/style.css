@@ -1,0 +1,293 @@
+
+
+
+h1 { 
+        margin-left: 22px;
+        margin-top: 55px;
+        font-size: 240%;
+        vertical-align: middle;
+}
+
+
+
+#leftMargin { 
+        margin-left: 30px;
+        vertical-align: middle;
+        width:150px
+}
+
+/*  Welcome page tags */
+#containerMargin {         
+        margin-top: 15px;	
+        width: 550 px;
+        text-align: center;
+}
+
+.welcomepageTopSpacing { 
+        margin-top: 70px;
+}
+
+
+
+/****  Dashboard tags *****/
+#dashboardBaseContainer {         
+        margin-top: 15px;	
+        text-align: center;
+        display: flex;
+        flex-direction: column;               
+}
+
+#topNavDashboard {  	
+        margin-top: 15px;	
+        margin-left: -55px;      
+        flex-direction: row;
+        margin-bottom: 30px;
+}
+#innertopNavDashboard {  
+	    display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;       
+}
+
+.topNavLinksAndFieldDashboard {  
+        flex-direction: column;
+        display: inline-block;             
+}
+#topNavDashboardButton { 
+        box-shadow: 2px 2px;
+}
+
+#gridContainerDashboard {  
+        margin-top: 15px;	
+        text-align: center;
+        flex-direction: row;
+        margin-left: 35px;
+}
+
+
+/****  Artist Search tags *****/
+
+#dashboardBaseContainer {         
+        margin-top: 15px;	
+        text-align: center;
+        display: flex;
+        flex-direction: column;               
+}
+
+#artistTopDashboard {  	
+        margin-top: 15px;	
+        margin-left: 55px;      
+        flex-direction: row;
+        margin-bottom: 30px;
+}
+#innerArtistTopDashboard {  
+	    display: flex;
+        flex-direction: row;
+        justify-content: space-between;       
+}
+
+.topNavLinksAndFieldDashboard {  
+        flex-direction: column;
+        display: inline-block;             
+}
+#artistSearchButton { 
+        box-shadow: 2px 2px;
+}
+
+#gridContainerDashboard {  
+        margin-top: 15px;	
+        text-align: center;
+        flex-direction: row;
+        margin-left: 35px;
+}
+
+.artistSearchFieldWidth { 
+        width: 90px;
+}
+
+
+
+/****  Top Ten Search tags *****/
+#topTenBaseContainer {         
+        margin-top: 15px;	
+        display: flex;
+        flex-direction: column;
+        margin-left: 35px;               
+}
+
+#topTenNavContainer {  	
+        margin-left: 15px;      
+        flex-direction: row;
+        margin-bottom: 20px;
+}
+
+#topTenInnerNavContainer {  
+	    display: flex;
+        flex-direction: row;
+        justify-content: space-around;       
+}
+
+.topTenInnerTitle {  
+        flex-direction: column;
+        display: inline-block;  
+        font-size: 18px;  
+        font-weight: bold;
+        margin-left: -120px; 
+        margin-right: 165px;        
+}
+#topTenDashboardLink { 
+        flex-direction: column;
+        display: inline-block;
+        margin-right: -85px;
+}
+
+
+#topTenListContainer {  	
+        flex-direction: row;
+        margin-left: 125px;
+}
+
+.topTenLeftTableAlignment {  	
+        text-align: left;  
+}
+
+
+
+
+
+/****  Selected Songs tags *****/
+#selectedSongBaseContainer {         	
+        display: flex;
+        flex-direction: column;                      
+}
+
+.dashboardContainter {  	
+        margin-top: 35px;	
+        padding-right: 90px;        
+        margin-bottom: 70px;
+        text-align: right;
+}
+.contentContainer {  
+	    display: flex;
+        flex-direction: column;
+        margin-left: 75px;        
+}
+
+.selectedSongFieldAlignment1 {  
+        margin-left: 135px;       
+}
+
+.selectedSongFieldAlignment2 {  
+        margin-left: 125px;       
+}
+.selectedSongFieldAlignment3 {  
+        margin-left: 75px;       
+}
+
+
+
+
+
+/****  Add Songs tags *****/
+#addSongBaseContainer {         	
+        display: flex;
+        flex-direction: column;                      
+}
+
+.addSongDashboardContainter {  	
+        margin-top: 35px;	
+        padding-right: 90px;        
+        margin-bottom: 70px;
+        text-align: right;
+}
+.addSongFormContainer {  
+	    display: flex;
+        flex-direction: column;
+        margin-left: 75px;        
+}
+
+.addSongFieldAlignment1 {  
+        margin-left: 135px;       
+}
+
+.addSongFieldAlignment2 {  
+        margin-left: 85px;       
+}
+
+
+.addSongFieldBottomSpacing { 
+        margin-bottom: 15px;
+}
+
+#addSongButtonSpacing { 
+        margin-left: 275px;
+        box-shadow: 2px 2px;
+}
+
+
+
+
+/* Table tags  */
+
+table, th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  width: 60%;
+}
+
+ tr {
+  border: 1 px gray;
+  border-collapse: collapse;
+  text-align: center;
+}
+tr:nth-child(even)  {
+	background-color: #f2f2f2;
+}
+
+#noBorder {
+ border: none;
+} 
+
+.dashboardTableWidth {
+  border: 1px solid black;
+   width: 85%
+} 
+
+#topTenTableWidth {
+  border: 1px solid black;
+  background-color: transparent; 
+   width: 55%
+} 
+
+.columnWidth {
+  border: 1px solid black;
+   width: 20%
+} 
+.columnWidth1 {
+  border: 1px solid black;
+   width: 15%
+}  
+.columnWidth2 {
+  border: 1px solid black;
+   width: 75%
+} 
+
+.columnWidth4 {
+   width: 15%;
+   margin-bottom: 20px;
+}
+
+.topTenTableRowPadding {
+   margin-bottom: 20px;
+} 
+
+.dashboardCellPadding {
+   padding-left: 5px;
+   padding-right: 5px;
+} 
+.dashboardCellPadding2 {
+   padding-left: 45px;
+   padding-right: 45px;
+} 
+
