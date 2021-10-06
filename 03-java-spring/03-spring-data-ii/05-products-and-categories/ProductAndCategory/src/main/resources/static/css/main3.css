@@ -1,0 +1,116 @@
+form span {
+	display: block;
+	color: red;
+	font-weight: bold;
+}
+
+table, th {
+  border: 1px solid gray;
+  border-collapse: collapse;
+  text-align: center;
+  box-shadow: 2px 2px;
+  background-color: rgba(0, 25, 245, 0.3);
+}
+
+#bkgrdColor {background-color: rgba(0, 0, 255, 0.3); }
+
+ tr {
+  border: none;
+  border-collapse: collapse;
+  text-align: center;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: top;
+   margin-top:-273px;
+   
+}
+.cellPadding {
+  padding: 25px;
+}
+ul, li {
+	float:left;
+}
+
+p {outline-color:blue;}
+
+ .outset {
+	outline-style: outset;
+	outline-color:blue;
+}
+ p.textAlign {
+	margin: 25px 50px 75px 100px;
+}
+
+
+
+#noBorder {
+ border: none;
+} 
+
+.columnWidth1 {
+ 
+   width: 30%
+}  
+.columnWidth2 {
+  border: 1px solid black;
+   width: 35%
+} 
+.columnWidth3 {
+  border: 1px solid black;
+   width: 25%
+} 
+#fieldFormat {
+  border: 1px solid black;
+  margin-left:235px;
+  display: inline-block;
+  vertical-align: top;
+   width: 20%
+}   
+
+#buttonAlign {
+  margin-left:-170px;
+  vertical-align: top;
+} 
+.buttonAlign {
+  margin-left:400px;
+  vertical-align: top;
+} 
+.buttonAlign2 {
+  margin-left:-70px;
+  vertical-align: top;
+} 
+
+
+.linkAlign {
+  vertical-align: top;
+  text-align: right;
+  float:right;
+  right: -100px;
+
+}  
+.fieldWidth {
+        width: 50%;
+}
+.leftAlign{
+	margin: 25px 50px 75px 100px;
+}
+.textAlign{
+	margin: 100px;
+	margin-left:400px;
+	
+}	
+.fieldAlign{
+	 margin-left:-100px;
+ }
+.fieldAlign2{
+	 margin-left:-115px;
+ }
+.fieldAlign3{
+	 margin-left:-90px;
+ }
+.fieldAlign4{
+	 margin-left:-140px;
+ } 
+

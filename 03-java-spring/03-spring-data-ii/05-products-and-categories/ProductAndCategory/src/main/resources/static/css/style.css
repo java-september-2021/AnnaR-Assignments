@@ -1,0 +1,86 @@
+
+
+
+h1 { 
+        margin-left: 35px;
+        margin-top: 45px;
+        font-size: 170%;
+        vertical-align: top;
+}
+
+h3 { 
+        margin-left: 0px;
+        font-size: 170%;
+        text-align: left;
+}
+
+
+
+/****  Product and Category Pages *****/
+#baseContainer {  	
+        margin-top: 15px;	
+        margin-left: 35px;      
+        flex-direction: row;
+        margin-bottom: 30px;
+        
+}
+#innerContainer {  
+	    display: flex;
+        flex-direction: row;
+        justify-content: flex-start;   
+        margin-bottom: 30px;          
+}
+
+.listformat {  
+         list-style-type: none;
+         padding: 0; 
+         margin-bottom: 1px;  
+}
+
+.buttonProductformat {  
+         margin-left:40px; 
+         margin-top: 95px;  
+}
+
+.buttonCategoryformat {  
+         margin-left: 60px; 
+         margin-top: 155px;  
+}
+
+
+/****  Product Page *****/
+.productCategoryList {  
+        flex-direction: column;
+        display: inline-block; 
+        margin-right: 125px;	            
+}
+
+.newCategoryList {  
+        flex-direction: column;
+        display: inline-block;
+        margin-left: 125px;  
+        vertical-align: top;
+        margin-top: 25px;
+}
+
+
+/****  Category Page *****/
+.categoryProductList {  
+        flex-direction: column;
+        display: inline-block; 
+        margin-right: 125px;	            
+}
+
+.newProductList {  
+        flex-direction: column;
+        display: inline-block;
+        margin-left: 125px;  
+        vertical-align: top;
+        margin-top: 25px;
+}
+
+.productCategoryList {  
+        flex-direction: column;
+        display: inline-block; 
+        margin-right: 125px;	            
+}
