@@ -1,0 +1,194 @@
+@charset "ISO-8859-1";
+/*Languages*/
+
+/**** Added Styles Section ****/
+
+#innerContainer {
+    flex-direction: column;
+    justify-content: space-between;
+    display: inline-block;
+}
+
+#outterContainer {
+	 margin-left: 30px;	
+}
+
+#outterContainer2 {
+	 margin-left: 30px;
+	 display: flex;	
+}
+
+#outterTagContainer {
+	 margin-top: 10px;
+}
+#innerTagContainer2 {
+	 vertical-align: top;
+	 display: inline-block;	 
+}
+
+#innerTagContainer {
+	 margin-left: 35px;
+     font-weight: bold;
+     margin-top: 15px;
+     display: inline-block;
+}
+
+#tableContainer {
+	 margin-left: 30px;
+	 display: flex;	
+}
+
+#tableContainer2 {
+	 margin-top: 30px;
+	 margin-left: 30px;
+	 display: flex;		 
+}
+
+#newContainer {
+	 margin-left: 50px;
+	
+}
+.answerHeading{
+	 margin-top: 170px;
+	 font-size:20px;
+	 font-weight:bold;
+	 margin-bottom: 15px
+}
+
+.answerLabel{
+    vertical-align: top;
+    font-weight: bold;
+}
+
+#editLinkContainer {
+	margin-left: 30px;
+	padding-left: 20px;
+}
+
+.labelFormat {
+    vertical-align: top;
+} 
+
+
+.fieldFormat {
+    margin-left: 20px;
+    vertical-align: bottom;
+    margin-bottom: 15px;
+    width:250px;
+    height: 100px;
+} 
+
+.fieldFormat2 {
+    margin-left: 50px;
+    vertical-align: bottom;
+    width:248px;
+} 
+
+.fieldFormat3 {
+    margin-left: 15px;
+    vertical-align: bottom;
+    width:200px;
+    height: 80px;
+    margin-bottom: 15px;
+} 
+
+.buttonAlign {
+  margin-top: 15px;
+  margin-left: 280px;
+  margin-bottom: 15px;
+}
+
+.answerButton {
+  margin-top: 15px;
+  margin-left: 200px;
+  box-shadow: 2px 2px;
+  
+}
+
+.tagButton {
+  margin-left: 3px;
+  box-shadow: 1px 1px;
+  
+}
+
+.linkAlign {
+  text-align: right;
+  float: right; 
+}
+
+.linkAlign2 {
+   margin-top: 35px; 
+   margin-left: 265px;
+}
+
+.linkAlign3 {
+   padding-bottom: 25px; 
+   margin-left: 60px;
+}
+
+
+.bottomMargin {
+  margin-bottom: 15px;
+}
+
+li{
+  list-style: none;
+   display: inline-block;
+}
+form span {
+	display: block;
+	color: red;
+	font-weight: bold;
+}
+
+table, th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+ tr {
+  border: 1 px gray;
+  border-collapse: collapse;
+  text-align: left;
+  margin-left: 15px;
+  
+}
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+ .theadBkgrd{
+	background-color: AliceBlue;
+	padding: 20px;
+}
+
+
+#noBorder {
+ border: none;
+ width: 60%;
+
+} 
+
+.leftMargin {
+   margin-top: 35px;	
+   margin-left: 15px;
+   font-weight: bold;
+   font-size:37px;
+} 
+
+.columnWidth {
+  border: 1px solid black;
+   width: 60%;
+} 
+.columnWidth1 {
+  border: 1px solid black;
+   width: 32%
+}  
+.columnWidth2 {
+  border: 1px solid black;
+   width: 35%
+} 
+.tableMargin {
+   margin-bottom: 15px
+} 

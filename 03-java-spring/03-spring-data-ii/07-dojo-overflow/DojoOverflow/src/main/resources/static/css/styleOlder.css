@@ -1,0 +1,60 @@
+h1 { 
+        font-size: 200%;
+        text-align: center;
+        vertical-align: middle;
+}
+h2 {
+        color: green;
+        font-size: 250%;
+        text-align: center;
+        vertical-align: middle;
+}
+h3 {
+        text-align: center;
+        vertical-align: middle;        
+}
+.fColor {
+        color: red;
+        font-size: 90%;
+}
+
+.center {
+        text-align: center;
+}
+.fieldWidth {
+        width: 50%;
+}
+.fieldTextWidth {
+        width: 82%;
+}
+.leftAlign {
+        
+        border-style: solid;
+        list-style-position: inside;
+        vertical-align: middle;
+        border-width: thin;
+        border: 1px solid black; 
+        margin: 25px 50px 75px 100px;
+      
+}
+table, th, td {
+  border: 1px solid black;
+  border-spacing: 5px 5px 5px 5px;
+  padding: 15px;
+  text-align: center;
+ 
+}
+.underline {
+  border-bottom: 1px solid;
+  width: 28%;
+}
+ul {
+        font-weight: bolder;
+        margin-left: 525px;
+        list-style-position: inside;
+        vertical-align: middle;
+        margin-top: 125px;
+}
+#fontSize {
+        font-size: 90%;      
+}
