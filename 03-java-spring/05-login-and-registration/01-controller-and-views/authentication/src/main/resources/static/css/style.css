@@ -1,0 +1,34 @@
+@charset "ISO-8859-1";
+
+/**** Added Styles Section ****/
+
+#outterContainer {
+	 margin-left: 50px;	
+}
+
+#outterContainer2 {
+	 margin-top: 15px;
+}
+
+.fieldFormat {
+    margin-left: 115px;
+    vertical-align: top;
+    margin-bottom: 10px;
+} 
+
+.fieldFormat2 {
+    margin-left: 95px;
+    vertical-align: top;
+    margin-bottom: 10px;
+} 
+
+.fieldFormat3 {
+    margin-left: 5px;
+    vertical-align: top;
+    margin-bottom: 15px;
+} 
+
+.buttonAlign {
+  margin-left: 265px;
+}
+
